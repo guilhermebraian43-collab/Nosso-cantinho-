@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosso Cantinho 💜</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="hearts"></div>
+
+  <header class="hero">
+    <div class="glow"></div>
+    <p class="mini">um cantinho só nosso</p>
+    <h1>Nosso Cantinho <span>💜</span></h1>
+    <p class="subtitle">Algumas lembranças, palavras e momentos que eu quero guardar com você.</p>
+    <button id="musicBtn" class="music-btn">▶ Tocar nossa música</button>
+    <audio id="music" loop preload="metadata">
+      <source src="audio/musica.mp3" type="audio/mpeg">
+    </audio>
+  </header>
+
+  <main>
+    <section class="card intro">
+      <span class="tag">DESDE 01/03/2025</span>
+      <h2>Desde que nossas histórias se encontraram...</h2>
+      <p>
+        Tem pessoas que chegam e simplesmente deixam tudo mais bonito.
+        Esse espaço é uma pequena forma de guardar um pouco do que vivemos,
+        das nossas lembranças e de tudo aquilo que ainda vamos viver.
+      </p>
+    </section>
+
+    <section class="counter-section">
+      <h2>Nosso tempo juntos 💜</h2>
+      <p class="muted">Cada segundo conta.</p>
+      <div class="counter" id="counter">
+        <div><strong id="days">0</strong><span>dias</span></div>
+        <div><strong id="hours">0</strong><span>horas</span></div>
+        <div><strong id="minutes">0</strong><span>minutos</span></div>
+        <div><strong id="seconds">0</strong><span>segundos</span></div>
+      </div>
+    </section>
+
+    <section class="card message">
+      <span class="tag">PARA VOCÊ</span>
+      <h2>Você mora em um pedacinho do meu coração. 💜</h2>
+      <p>
+        Entre risadas, conversas, abraços e até os nossos momentos difíceis,
+        eu continuo escolhendo você. Que a gente continue criando memórias,
+        uma por uma, até esse pequeno site ficar pequeno demais para caber
+        tudo o que vivemos.
+      </p>
+      <p class="signature">Com carinho, sempre. ♡</p>
+    </section>
+
+    <section class="gallery-section">
+      <h2>Nossas lembranças 📸</h2>
+      <p class="muted">Coloque suas fotos na pasta <b>imagens</b> e troque os nomes abaixo.</p>
+      <div class="gallery">
+        <figure><img src="imagens/foto1.jpg" alt="Nossa lembrança 1"><figcaption>Uma lembrança nossa</figcaption></figure>
+        <figure><img src="imagens/foto2.jpg" alt="Nossa lembrança 2"><figcaption>Um momento especial</figcaption></figure>
+        <figure><img src="imagens/foto3.jpg" alt="Nossa lembrança 3"><figcaption>Mais uma memória 💜</figcaption></figure>
+        <figure><img src="imagens/foto4.jpg" alt="Nossa lembrança 4"><figcaption>Que venham muitas outras</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="card final">
+      <div class="big-heart">💜</div>
+      <h2>Isso é só o começo.</h2>
+      <p>Que nossa história continue sendo escrita.</p>
+    </section>
+  </main>
+
+  <footer>Feito com carinho 💜</footer>
+  <script src="script.js"></script>
+</body>
+</html>
